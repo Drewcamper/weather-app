@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex:100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    width:100%
+    
+  }
+  .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 46%;
+    margin: 2%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  .input:focus {
+    outline: none;
+  }
+
+.latlon{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    flex:100%;
+    align-items: center;
+    text-align: center;
+  }
+  .lat{
+    padding-left: 10px;
+  }
+  .lon{
+    padding-left: 10px;
+  }
