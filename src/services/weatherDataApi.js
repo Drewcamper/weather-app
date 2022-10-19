@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const apiBase = process.env.REACT_APP_API_BASE;
-const apiKey = process.env.REACT_APP_API_KEY;
+const apiBase = https://api.openweathermap.org/data/2.5/;
+const apiKey = 0a5434c9bad2d1ac924e0af814167f52;
 
 export const fetchWeatherData = (city) => {
   return new Promise((resolve, reject) => {
